@@ -1,0 +1,116 @@
+.cat-bg {
+    background-image: url(cat.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    width: 100%;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+ 
+
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;  
+  font-size: 2rem;
+  text-align: center;
+  
+}
+.top-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+
+}
+h3 {
+   color:#f4aecc ;
+   font-family: "Montserrat", sans-serif;  
+}
+.aura {
+    border-radius: 50%;
+}
+
+h4 {
+   color:#f4aecc ;
+   font-family: "Montserrat", sans-serif; 
+   font-size: 3rem;
+   text-align: center;
+   font-weight: bold;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 2fr;  
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;   
+ 
+}
+
+hr {
+  border: dotted #f4aecc 10px;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+
+.photo-1 {
+   width: 100%;
+   height: auto;
+}
+.text-1 { 
+    align-self: center;
+}
+.photo-2 {
+   width: 100%;
+   height: auto;
+
+}
+.text-2 {
+   align-self: center;
+
+}
+.h3-2 {
+    margin: 30px;
+}
+.p2 {
+    color: #f4aecc;
+    font-weight: bold;
+    margin: 50px;
+}
+footer {
+    background-color: #f4aecc;
+    width: 100%;
+    height: 300px;
+   
+
+}
+span {
+    display: block;
+    text-align: center;
+}
+.insta-icon {
+    width: 30px;
+    height: 30px;
+}
+.instagram {
+    display: block;
+    text-align: center;
+}
+@media ( max-wigth: 768px) {
+    h1{
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
